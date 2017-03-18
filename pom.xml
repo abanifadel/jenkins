@@ -1,0 +1,19 @@
+<project>
+      <modelVersion>4.0.0</modelVersion>
+      <groupId>com.curamet.app</groupId>
+      <artifactId>ALAA-app</artifactId>
+      <version>1</version>
+
+  <properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+    </dependency>
+  </dependencies>
+
+</project>
