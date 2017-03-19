@@ -11,7 +11,7 @@ public class TestCalculator {
     
     Calculator calc = new Calculator();
     int sumRes = calc.addition(5,5);
-    Assert.assertEquals(10,sumRes)
+    Assert.assertEquals(10,sumRes);
   
     {
 
