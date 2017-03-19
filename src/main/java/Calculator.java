@@ -1,3 +1,5 @@
+package jenkins.demo.calc;
+
 import java.lang.*;
 import java.util.*;
 
