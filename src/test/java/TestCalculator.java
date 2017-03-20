@@ -22,4 +22,13 @@ public class TestCalculator {
     Assert.assertEquals(0,sumRes);
   }
 
+
+  @Test
+  public void testMultiplication()  {
+    
+    Calculator calc = new Calculator();
+    int sumRes = calc.multiplication(5,5);
+    Assert.assertEquals(25,sumRes);
+  }  
+  
 }
