@@ -13,6 +13,13 @@ public class TestCalculator {
     int sumRes = calc.addition(5,5);
     Assert.assertEquals(10,sumRes);
   }
+
+  @Test
+  public void testSubtraction()  {
     
+    Calculator calc = new Calculator();
+    int sumRes = calc.subtraction(5,5);
+    Assert.assertEquals(0,sumRes);
+  }
 
 }
